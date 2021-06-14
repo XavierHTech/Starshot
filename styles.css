@@ -1,10 +1,31 @@
+
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+.contentscnd {
+  max-width: 600px;
+  margin: auto;
+}
+
 body {
   background-color: 111111;
+  color: white;
+}
+
+b {
+	font-weight: bold;
+	color: sandybrown;
 }
 
 h1 {
-  color: navy;
+  color: cyan;
   margin-left: 20px;
+}
+
+h2 {
+  color: gold;
 }
 
 
@@ -23,7 +44,7 @@ p {
 .tab button {
   background-color: inherit;
   float: left;
-  border: none;
+  border: 1px solid #ccc;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -50,7 +71,7 @@ p {
 
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
-  height: 100%;
+  height: auto%;
   margin: 0;
   font-family: Arial;
 }
@@ -65,7 +86,7 @@ body, html {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 33.3333333333%;
 }
 
 .tablink:hover {
@@ -77,14 +98,75 @@ body, html {
   color: white;
   display: none;
   padding: 100px 20px;
-  height: 100%;
+  height: auto;
 }
 
 table, th, td {
   border: 1px solid black;
 }
 
-#Home {background-color: 880906;}
-#News {background-color: 479c44;}
-#Contact {background-color: 0f8dd2;}
-#About {background-color: e09200;}
+#Home {background-color: 3b100e;}
+#Projects {background-color: 193618;}
+#Contact {background-color: 472f01;}
+
+
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+ 
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+	background: #0A66C2;
+	color: white;
+}
+
+.fa-envelope {
+	background: orange;
+	color: white;
+}
+ 
+ .fa-github {
+	 background: green;
+	 color: white;
+ }
+ 
+ 
+ .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
