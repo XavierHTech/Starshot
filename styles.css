@@ -162,11 +162,22 @@ table, th, td {
 	 color: white;
  }
  
+
+
  
  .center {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
+  height: 50%;
+  background-color: #B7410E;
+  border: 3px solid gold;
   padding: 10px;
   text-align: center;
+  vertical-align: middle;
+}
+
+con {
+	color: white;
+	font-size: 64px;
+	vertical-align: middle;
 }
