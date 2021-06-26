@@ -2,60 +2,96 @@
 
 <head>
 <link rel="stylesheet" href="styles.css">
+<link href="fontawesome/css/all.css" rel="stylesheet">
 </head>
  
  <header>
-      <h1 id="site-title"><a href="./" id="home-link">Xavier's GitHub Pages</a></h1>
-      <a id="fork-me" href="https://github.com/XavierHTech/Starshot">Fuck Me</a>
+	  <hr>
+<div class="tbanner">
+<bigh>STARSHOT</bigh>
+</div>
+	  <hr>
     </header>
  
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+
+<p>Summaries n shit.</p>
 
 
 
- <button class="tablink" onclick="openPage('Home', this, '880906')"id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('News', this, '479c44')">News</button>
-<button class="tablink" onclick="openPage('Contact', this, '0f8dd2')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'e09200')">About</button>
+<button class="tablink" onclick="openPage('Game', this, '479c44')">Game</button>
+<button class="tablink" onclick="openPage('Story', this, '0f8dd2')">Story</button>
+<!--<button class="tablink" onclick="openPage('Contact', this, 'e09200')">Contact</button>-->
 
-<div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p>Home is where the heart is..</p>
 
+<div id="Game" class="tabcontent">
+
+ <div id="navbar">
+  <a href="#Story mechanics">Story mechanics</a>
+  <a href="#Strategy mechanics">Strategy mechanics</a>
+  <a href="#Weird esoteric mechanics">Weird esoteric mechanics</a>
+</div> 
+
+
+  <h2>Game</h2>
+  <p>Game description and details. Recursive tabs?</p>
+  <section id="Story mechanics">
+  <br><br>
+  <h3>Story mechanics</h3><br>
+  <h4>Mechanic</h4><br>
+  <h4>Mechanic</h4><br>
+  <h4>Mechanic</h4><br>
+  <section id="Strategy mechanics">
+  <br><br>
+  <h3>Strategy mechanics</h3><br>
+  <h4>Mechanic</h4><br>
+  <h4>Mechanic</h4><br>
+  <h4>Mechanic</h4><br>
+  <section id="Weird esoteric mechanics">
+  <br><br>
+  <h3>Weird esoteric mechanics</h3><br>
+  <h4>Mechanic</h4><br>
+  <h4>Mechanic</h4><br>
+  <h4>Mechanic</h4><br>
 </div>
 
-<div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Some news this fine day!</p>
+<div id="Story" class="tabcontent">
+
+ <div id="navbar">
+  <a href="#Lore section #1">Lore section #1</a>
+  <a href="#Lore section #2">Lore section #2</a>
+  <a href="#Lore section #3">Lore section #3</a>
+</div> 
+
+
+
+  <h2>Story</h2>
+  <p>Explain background. Explain the (potential) presence of the codex and wiki.</p>
+  <section id="Lore section #1">
+  <br><br>
+  <h3>Lore section #1</h3><br>
+  <h4>Lore</h4><br>
+  <h4>Lore</h4><br>
+  <h4>Lore</h4><br>
+  <section id="Lore section #2">
+  <br><br>
+  <h3>Lore section #2</h3><br>
+  <h4>Lore</h4><br>
+  <h4>Lore</h4><br>
+  <h4>Lore</h4><br>
+  <section id="Lore section #3">
+  <br><br>
+  <h3>Lore section #3</h3><br>
+  <h4>Lore</h4><br>
+  <h4>Lore</h4><br>
+  <h4>Lore</h4><br>
 </div>
 
 <div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
-</div>
-
-<div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
-  <table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
+  <h2>Contact</h2>
+  <p>Links to social media and websites. Explain self. Links possibly in footer?</p>
+  
 </table> 
 </div> 
 
@@ -70,15 +106,15 @@
 
 <div class="tab-content">
   <div id="home" class="tab-pane fade in active">
-    <h3>HOME</h3>
+    <h2>HOME</h2>
     <p>Some content.</p>
   </div>
   <div id="menu1" class="tab-pane fade">
-    <h3>Menu 1</h3>
+    <h2>Menu 1</h2>
     <p>Some content in menu 1.</p>
   </div>
   <div id="menu2" class="tab-pane fade">
-    <h3>Menu 2</h3>
+    <h2>Menu 2</h2>
     <p>Some content in menu 2.</p>
   </div>
 </div>
@@ -89,6 +125,9 @@
 </body>
 
 <footer>
+<div class="center">
+<br><br>
+<hr>
 <button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-secondary">Secondary</button>
 <button type="button" class="btn btn-outline-success">Success</button>
@@ -97,6 +136,12 @@
 <button type="button" class="btn btn-outline-danger">Danger</button>
 <button type="button" class="btn btn-outline-dark">Dark</button>
 <button type="button" class="btn btn-outline-light text-dark">Light</button>
+<br>
+<a href="https://www.linkedin.com/in/xavierhancock/" class="fab fa-linkedin"></a>
+<a href="https://twitter.com/XavierHTech" class="fab fa-twitter"></a>
+<a href="XavierHTech@gmail.com" class="fa fa-envelope"></a>
+<a href="https://xavierhtech.github.io/Portfolio/" class="fab fa-github"></a>
+</div>
 </footer>
 
 
