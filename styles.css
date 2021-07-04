@@ -1,7 +1,7 @@
 
 
 .content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
 }
 .contentscnd {
@@ -9,14 +9,27 @@
   margin: auto;
 }
 
+header {
+	background-image: url("media/test/unknown.png");
+}
+
 body {
   background-color: 111111;
   color: white;
 }
 
+footer {
+	background-image: url("media/test/unknown.png");
+}
+
 b {
 	font-weight: bold;
 	color: sandybrown;
+}
+
+sub {
+	font-style: italic;
+	color: silver;
 }
 
 bigh {
@@ -41,6 +54,23 @@ h2 {
 
 p {
 	color: white;
+}
+
+ss {
+	color: violet;
+}
+
+f {
+	color: yellow;
+	text-decoration: underline;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+
+body, html {
+  height: auto%;
+  margin: 0;
+  font-family: Arial;
 }
 
 .tbanner {
@@ -82,22 +112,16 @@ p {
 
 /* Style the tab content */
 .tabcontent {
+	background-color: #222222;
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
 } 
 
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-  height: auto%;
-  margin: 0;
-  font-family: Arial;
-}
-
 /* Style tab links */
 .tablink {
-  background-color: #555;
+  background-color: #333;
   color: white;
   float: left;
   border: none;
