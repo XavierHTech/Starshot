@@ -10,7 +10,10 @@
 }
 
 header {
-	background-image: url("media/test/unknown.png");
+	background-image: url("media/ssbanner.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto
+	
 }
 
 body {
@@ -19,7 +22,9 @@ body {
 }
 
 footer {
-	background-image: url("media/test/unknown.png");
+	background-image: url("media/ssbanner.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto
 }
 
 b {
