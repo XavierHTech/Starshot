@@ -1,0 +1,192 @@
+
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+.contentscnd {
+  max-width: 600px;
+  margin: auto;
+}
+
+header {
+	background-image: url("media/ssbanner.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto
+	
+}
+
+body {
+  background-color: 111111;
+  color: white;
+}
+
+footer {
+	background-image: url("media/ssbanner.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto
+}
+
+b {
+	font-weight: bold;
+	color: sandybrown;
+}
+
+sub {
+	font-style: italic;
+	color: silver;
+}
+
+bigh {
+	color: MidnightBlue;
+	font-size: 82px;
+	text-align: center;
+	outline-width: 1px;
+	outline-color: white;
+	text-shadow: 1px 1px darkviolet, 2px 0px darkviolet,
+	-1px -1px cyan, -2px 0px cyan;
+}
+
+h1 {
+  color: cyan;
+  margin-left: 20px;
+}
+
+h2 {
+  color: gold;
+}
+
+
+p {
+	color: white;
+}
+
+ss {
+	color: violet;
+}
+
+f {
+	color: yellow;
+	text-decoration: underline;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+
+body, html {
+  height: auto%;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tbanner {
+	  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+ 
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+	background: #0A66C2;
+	color: white;
+}
+
+.fa-envelope {
+	background: orange;
+	color: white;
+}
+ 
+ .fa-github {
+	 background: green;
+	 color: white;
+ }
+ 
+ 
+ .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  filter: grayscale(100%);
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  filter: grayscale(50%);
+}
+
+.container:hover .middle {
+  opacity: 1;
+  filter: none;
+}
+
+.text {
+  background-color: #002f59;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
