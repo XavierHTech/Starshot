@@ -31,3 +31,47 @@ function scrollFunction() {
 } 
 
 
+
+
+function openSubPage(spageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, stabcontent, stablinks;
+  stabcontent = document.getElementsByClassName("stabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    stabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  stablinks = document.getElementsByClassName("stablink");
+  for (i = 0; i < stablinks.length; i++) {
+    stablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(spageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+  
+}
+
+
+
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
