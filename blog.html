@@ -1,9 +1,20 @@
----
-layout: default
-title: Blog
----
-<h1>Latest Posts</h1>
+<script src="scripts.js"></script> 
 
+<head>
+<link rel="stylesheet" href="styles_main.css">
+<link href="fontawesome/css/all.css" rel="stylesheet">
+</head>
+
+<header>
+<hr>
+<div class="tbanner">
+<bigh>STARSHOT</bigh>
+</div>
+<hr>
+</header>
+
+
+<body>
 <ul>
   {% for post in site.posts %}
     <li>
@@ -12,3 +23,15 @@ title: Blog
     </li>
   {% endfor %}
 </ul>
+</body>
+
+
+<footer>
+<hr>
+<div class="tbanner">
+<a href="https://www.linkedin.com/in/xavierhancock/" class="fab fa-linkedin"></a>
+<a href="https://twitter.com/XavierHTech" class="fab fa-twitter"></a>
+<a href="XavierHTech@gmail.com" class="fa fa-envelope"></a>
+<a href="https://www.github.com/XavierHTech" class="fab fa-github"></a>
+</div>
+</footer>
