@@ -47,6 +47,17 @@ bigh {
 	-1px -1px cyan, -2px 0px cyan;
 }
 
+bigh a {
+	color: MidnightBlue;
+	font-size: 82px;
+	text-align: center;
+	outline-width: 1px;
+	outline-color: white;
+	text-shadow: 1px 1px darkviolet, 2px 0px darkviolet,
+	-1px -1px cyan, -2px 0px cyan;
+	text-decoration: none;
+}
+
 h1 {
   color: cyan;
   margin-left: 20px;
