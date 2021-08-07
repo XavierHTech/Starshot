@@ -1,9 +1,37 @@
 ---
 layout: post
-title: post
+title: Post
 ---
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+<link rel="stylesheet" href="styles.css">
+<link href="fontawesome/css/all.css" rel="stylesheet">
+  </head>
+
+<body>
+<div class="content">
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
+
+<div class="contentscnd">
 {{ content }}
+</div></div>
+</body>
+
+
+
+<footer>
+<hr>
+<div class="tbanner">
+<a href="https://www.linkedin.com/in/xavierhancock/" class="fab fa-linkedin"></a>
+<a href="https://twitter.com/XavierHTech" class="fab fa-twitter"></a>
+<a href="XavierHTech@gmail.com" class="fa fa-envelope"></a>
+<a href="https://www.github.com/XavierHTech" class="fab fa-github"></a>
+</div>
+</footer>
+
+</html>
