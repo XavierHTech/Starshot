@@ -3,6 +3,9 @@
 .content {
   max-width: 1000px;
   margin: auto;
+  background-color: #222222;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
 }
 .contentscnd {
   max-width: 600px;
