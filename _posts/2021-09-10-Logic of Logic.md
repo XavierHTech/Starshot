@@ -7,7 +7,7 @@ If you've seen [the last post](https://xavierhtech.github.io/Starshot/2021/08/14
 
 For now, though, I've moved on to more significant changes and reworks for the actual gameplay parts of <ss>Starshot</ss>, particularly in the story half of it. And first on my list of things to rework is a very significant one, both for development- mine and potential modders- and for gameplay: <f>A complete rework of the events system</f>, and hopefully a similar rework of the "requirements logic" system shortly after.
 
-<h2>So what's the deal with that?<h2>
+<h2>So what's the deal with that?</h2>
 
 It may not answer that question on its own, but this is a big part of it:
 
