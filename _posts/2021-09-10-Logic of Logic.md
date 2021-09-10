@@ -21,9 +21,10 @@ Now, how do I fix this? The most direct answer is to remove as many variables as
 That enum did serve a part as the basis for the solution I came up with, though. And that solution? <f>To condense a number of these variables into a single one, without using structs if possible.</f> My primary reason for avoiding structs being to make this condensed supervariable as writable as possible when editing datatables outside of the Unreal Editor, but I would also argue that it has given me greater freedom in terms of what I can make happen through the supervariable.
 
 Now, the problem with this supervariable is one thing in particular: <f>What do I make it to store all of that information, and how do I then recover said information?</f>
-The answer to that is a string, and a string parser.
 
-It's an easier answer than it is a solution, but that's exactly what I've been working with, and working quite well with, actually.
+My answer to that is a string, and a string parser.
+
+It's an easier answer than it is a solution, but that's exactly what I've been working with, and working quite well with, by all accounts.
 While I have only focused on one particularly small area at a time, the intent for this parser is to handle both "events" and "logic"- namely, rewards, costs, and battles, and choice requirements and battle outcomes, respectively.
 In each case, the advantages of the string parser over my initial system are multifaceted, but require a good deal of work to function well- at the very least, one advantage of doing this for the story half of the game specifically is that I don't have to worry as much about performance, with there being little else to take up resources.
 
