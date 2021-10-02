@@ -24,6 +24,13 @@ body {
   color: white;
 }
 
+code {
+	display: block;
+	color: lime;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
 footer {
 	background-image: url("media/ssbanner.png");
 	background-repeat: no-repeat;
