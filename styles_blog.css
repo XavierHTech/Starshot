@@ -76,6 +76,7 @@ h1 {
 
 h2 {
   color: gold;
+  font-variant-caps: titling-caps;
 }
 
 h3 {
