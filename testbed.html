@@ -8,13 +8,16 @@
 <link href="fontawesome/css/all.css" rel="stylesheet">
 </head>
 
-<body>
-
+<header>
 <label for="pages">Choose a page:</label>
 <select name="pages" id="pages" onchange="includeHTML(this.value)">
   <option value="content.html">Crab</option>
   <option value="wiki/template.html">Worm</option>
 </select> 
+</header>
+
+<body>
+
 
 <div class="content">
 <div include-html="content.html"></div> 
