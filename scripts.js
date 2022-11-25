@@ -77,7 +77,8 @@ window.onclick = function(event) {
 } 
 
 
-function includeHTML() {
+//function includeHTML() {
+function includeHTML(file) {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
   z = document.getElementsByTagName("*");

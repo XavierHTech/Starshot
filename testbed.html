@@ -9,8 +9,26 @@
 </head>
 
 <body>
+
+<label for="pages">Choose a page:</label>
+<select name="pages" id="pages" onchange="includeHTML(this.value)">
+  <option value="content.html">Crab</option>
+  <option value="wiki/template.html">Worm</option>
+</select> 
+
 <div class="content">
 <div include-html="content.html"></div> 
+Test!
+</div>
+
+
+<div class="tbanner">
+<bigh><a href="./">STARSHOT</a></bigh>
+</div>
+
+
+<div class="content">
+<div include-html></div> 
 Test!
 </div>
 
