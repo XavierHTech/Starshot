@@ -91,8 +91,8 @@ function includeHTML(file) {
       xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
-          if (this.status == 200) {document.getElementById("area") = this.responseText;}
-          if (this.status == 404) {document.getElementById("area") = "Page not found.";}
+          if (this.status == 200) {document.getElementById("area").innerHTML = this.responseText;}
+          if (this.status == 404) {document.getElementById("area").innerHTML = "Page not found.";}
           /* Remove the attribute, and call this function once more: */
           //elmnt.removeAttribute("include-html");
           includeHTML();
