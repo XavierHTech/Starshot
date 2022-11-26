@@ -81,7 +81,7 @@ window.onclick = function(event) {
 function includeHTML(file) {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
+  z = document.getElementsByTagName("Area");
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
     /*search for elements with a certain atrribute:*/
@@ -94,7 +94,7 @@ function includeHTML(file) {
           if (this.status == 200) {elmnt.innerHTML = this.responseText;}
           if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
           /* Remove the attribute, and call this function once more: */
-          //elmnt.removeAttribute("include-html");
+          elmnt.removeAttribute("include-html");
           includeHTML();
         }
       }
