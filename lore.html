@@ -37,14 +37,14 @@ This section of the website is subject to significant changes as the game and su
 </div><div id="Factions" class="tabcontent">
 
 <div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">Jump to...</button>
+<button onchange="includeHTML(this.value)" onclick="dropDown()" class="dropbtn">Jump to...</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="#FMagd">Magdoran Conglomerate</a>
-    <a href="#FElbi">Imperium of Nitav</a>
-    <a href="#FLiiy">Liiya Directorate</a>
-	<a href="#FTarr">Tarridan Military Command</a>
-	<a href="#FPira">Pirate Clans</a>
-	<a href="#FTita">The Titans</a>
+    <a href="#FMagd" value="content.html">Magdoran Conglomerate</a>
+    <a href="#FElbi" value="wiki/template.html">Imperium of Nitav</a>
+    <a href="#FLiiy" value="wiki/template.html">Liiya Directorate</a>
+	<a href="#FTarr" value="content.html">Tarridan Military Command</a>
+	<a href="#FPira" value="wiki/template.html">Pirate Clans</a>
+	<a href="#FTita" value="content.html">The Titans</a>
 
 </div></div>
 
@@ -144,6 +144,6 @@ This section of the website is subject to significant changes as the game and su
 
 
 
-<script>
+script
 document.getElementById("defaultOpen").click();
-</script>
+/script
